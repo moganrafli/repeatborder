@@ -28,4 +28,32 @@ body. html {
 .frame {
   border: 1px solid #484848;
   height: 100%;
+  flex-direction: column;
+}
+:root {
+  --main-red-color: #ff0000;
+}
+.main-red-color {
+  color: var(--main-red-color);
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+}
+.header-title {
+  flex: 1px;
+  text-align: center;
+  font-size: 3.6rem;
+  font-family: "Homemade Apple";
+  text-transform: lowercase;
+}
+
+.header-btn {
+  font-size: 1.8rem;
+  font-family: "Bungee";
+  padding: 24px;
+  background: unset;
+  border: unset;
+  outline: unset;
 }
